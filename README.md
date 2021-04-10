@@ -15,6 +15,9 @@ but remeber your apache2 must  stop now )
 do this command at same path where you took your cookies script done your ready now ...
 now find XSS site , for practice purpose you can use Beebox .<br>which is available at www.root-me.org , get XSS and use XSS paylaod which is given below of this README
 
+Mail cookies stealer are very interesting <br>
+Use mail scripts on working SMTP Webserver else it will not work
+
 enjoy :D 
 www.hacksudo.com/contact
 
