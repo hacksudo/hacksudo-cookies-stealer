@@ -9,7 +9,7 @@ here we created PHP Cookie Stealing Scripts which use in XSS/stored/relfect
 
 ## How To Usage
 1. On the remote attacker machine, start the webserver (Apache2 in example),or you can use PHP server
-php -S attackerIP:80 ( user attacker ip , and port you can use 8080 also , but remeber your apache2 is stop )
+php -S attackerIP:80 ( user attacker ip , and port you can use 8080 also , but remeber your apache2 must  stop now )
 do this command at same path where you took your cookies script done your ready now ...
 now find XSS site , for practice purpose you can use Beebox , which is available at www.root-me.org , get XSS and use XSS paylaod which is given below of this README
 
