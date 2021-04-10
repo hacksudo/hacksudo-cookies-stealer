@@ -1,4 +1,5 @@
 # hacksudo-cookies-stealer
+<h2> 1 method </h2>
 here we created PHP Cookie Stealing Scripts which use in XSS/stored/relfect
 
 1. **Cookiesteal-simple.php** - Records whatever "c" parameter holds, in example case the **document.cookie string,** writes value to **log.txt.** 
